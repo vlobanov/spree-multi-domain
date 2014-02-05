@@ -2,6 +2,6 @@ source 'http://rubygems.org'
 
 gem 'rails'
 
-gem 'spree', :github => "ivan-khomich/spree", :branch => "master"
+gem 'spree', git: 'git@github.com:ivan-khomich/spree.git', :branch => "master"
 
 gemspec
